@@ -1,0 +1,31 @@
+.information {
+  font-size: 16px;
+  text-align: center;
+  background-color: #0b375d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+  /* margin: 12px; */
+}
+
+.information ul {
+  /* list-style: none; */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.add-note {
+  height: 200px;
+  border: none;
+  outline: none;
+  background: rgba(132, 182, 238, 0.863);
+  border-radius: 10px;
+  font-size: 120px;
+  color: rgb(255, 252, 252);
+  cursor: pointer;
+  transition: background 0.2s;
+}
